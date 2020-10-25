@@ -1,0 +1,75 @@
+
+/* section:a about */
+
+#section-a .home-about {
+    grid-template-columns: repeat(2,1fr)
+}
+
+/* section:b  */
+
+#section-b .desing {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+/* section:c contact */
+
+#contact .contact-us .gmail {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+/* footer  */
+
+#footer .footer-side {
+    flex-direction: column;
+}
+
+#footer .social-icon {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* mobile responsive  */
+
+@media(max-width: 500px) {
+
+
+#navbar ul li a {
+    font-size: 1rem;
+    padding: .50rem;
+}
+
+/* section:a about */
+#showcase .service {
+    flex-direction: column;
+}
+
+#showcase .service a {
+    margin-bottom: 1rem;
+}
+
+#section-a .home-about {
+    grid-template-columns: 1fr;
+}
+
+
+/* section:b  */
+
+#section-b .desing {
+    grid-template-columns: 1fr;
+}
+
+/* section:c contact */
+
+#contact .contact-us .gmail {
+    grid-template-columns:  1fr;
+
+    }
+}
+
+
+
+
+
+
+
